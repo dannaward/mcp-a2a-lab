@@ -50,8 +50,8 @@
 
 ## Resource Discovery
 ### Direct resource
-- `resources/list`를 통해 리소스 목록 조회`
-```json
+- `resources/list`를 통해 리소스 목록 조회
+```
 {
   uri: string;           // Unique identifier for the resource
   name: string;          // Human-readable name
@@ -62,7 +62,7 @@
 
 ### Resource templates
 - 동적 리소스는 URI templates 활용
-```json
+```
 {
   uriTemplate: string;   // URI template following RFC 6570
   name: string;          // Human-readable name for this type
@@ -73,7 +73,7 @@
 
 ## Reading Resources
 - `resources/read`
-```json
+```
 {
   contents: [
     {
