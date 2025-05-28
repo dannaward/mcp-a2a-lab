@@ -15,6 +15,9 @@
 ### General architecture
 - client-server architecture
   - host application이 여러 개의 server에 연결 가능
+ 
+<img width="690" alt="image" src="https://github.com/user-attachments/assets/7d693d20-d7e4-4151-b96c-b5e171b4e70b" />
+
 - 구성 요소
   - MCP Hosts: MCP를 통해 데이터에 접근하고자 하는 프로그램들
   - MCP Clients: 서버와 1:1 커넥션을 맺는 프로토콜 클라이언트
