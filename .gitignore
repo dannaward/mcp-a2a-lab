@@ -2,3 +2,5 @@
 .idea/
 
 weather/__pycache__/
+
+*.pyc
