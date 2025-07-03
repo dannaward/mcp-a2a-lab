@@ -4,7 +4,8 @@ from tools import (
     register_forecast_tools,
     register_weather_map_tools,
     register_severe_weather_tools,
-    register_weather_recommendation_tools
+    register_weather_recommendation_tools,
+    register_web_enhanced_tools
 )
 
 # Initialize FastMCP server
@@ -16,3 +17,4 @@ register_forecast_tools(mcp)
 register_weather_map_tools(mcp)
 register_severe_weather_tools(mcp)
 register_weather_recommendation_tools(mcp)
+register_web_enhanced_tools(mcp)
